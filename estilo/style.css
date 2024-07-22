@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+/* 
+font-family: "Outfit", sans-serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal; 
+*/
+
+:root{
+    --fonte: "Outfit", sans-serif;
+    --cor1: hsl(215, 51%, 70%);
+    --cor2: hsl(178, 100%, 50%);
+    --cor4: hsl(217, 54%, 11%);
+    --cor5: hsl(216, 50%, 16%);
+    --cor6: hsl(215, 32%, 27%);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor4);
+    font-family: var(--fonte);
+}
+
+main{
+    background-color: var(--cor5);
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px ;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
+    
+    max-width: 300px;
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#etherium-img{
+    max-width: 100%;
+    border-radius: 5px;
+    
+}
+
+.content-1 > h1{
+    color: white;
+    font-weight: normal;
+    font-size: 22px;
+    padding: 13px 0px;
+}
+
+.content-1 > p{
+    color: var(--cor1);
+    width: 300px;
+}
+
+.content-2{
+    display: flex;
+    padding: 20px 0px;
+    font-size: 14px;
+    border-bottom: 1px solid var(--cor6);
+}
+
+#etherium-icon-img{
+    padding-right: 5px;
+}
+
+#valor{
+    color: var(--cor2);
+    margin-right: 150px;
+}
+
+#time{
+    color: var(--cor1);
+    font-size: 14px;
+}
+
+#clock-icon-img{
+    padding-right: 5px;
+    width: 14px;
+    height: 14px;
+
+    position: absolute;
+    top: 437px;
+    left: 65%;
+}
+
+.content-3{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.content-3 > p{
+    color: var(--cor1);
+    padding-top: 5px;
+    padding-left: 15px;
+    
+}
+
+#jules-img{
+    width: 30px;
+
+    border: 1px solid white;
+    border-radius: 50%;
+}
